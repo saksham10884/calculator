@@ -6,9 +6,6 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
-:root{
-    --a:0
-}
 .frame{
     width: 50vw;
     height: 80vh;
@@ -176,7 +173,7 @@ body{
         height: 79%;
     }
     #moniter{
-        width: 61%;
+        width: 60%;
     }
     #del{
         left: 16%;
