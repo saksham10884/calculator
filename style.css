@@ -70,7 +70,7 @@ body{
     border: 2px solid white;
     border-radius: 5px;
     align-content: center;
-    overflow: hidden;
+    overflow: scroll;
 }
 .con{
     padding: 2px;
@@ -158,6 +158,22 @@ body{
 }
 #equal:hover,#ans:hover{
     background-color: rgb(25, 151, 25);
+}
+@media (max-width:892px){
+    #moniter{
+        width:75%
+    }
+    #con{
+        top: 0px;
+        left: 0px;
+        height: 40%;
+        width: 17%;
+        font-size: 55%;
+    }
+    #del{
+        height: 25%;
+        font-size: 50%;
+    }
 }
 @media (max-width:440px) {
     .frame{
