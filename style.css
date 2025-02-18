@@ -71,8 +71,9 @@ body{
     justify-content:right;
     border: 2px solid white;
     border-radius: 5px;
-    align-items: center;
-    overflow: hidden;
+    align-items: top;
+    overflow-x: scroll;
+    scrollbar-color:white black;
 }
 .con{
     padding: 2px;
