@@ -63,15 +63,15 @@ body{
 #moniter{
     position: absolute;
     background-color: grey;
-    display:grid;
+    display:flex;
     width: 79%;
     height: 71%;
     right: 4px;
     align-self: center;
-    justify-items:right;
+    justify-content:right;
     border: 2px solid white;
     border-radius: 5px;
-    align-content: center;
+    align-items: center;
     overflow: hidden;
 }
 .con{
@@ -195,7 +195,7 @@ body{
     }
     #con{
         width: 30%;
-        font-size: 70%;
+        font-size: 80%;
         height: 30%;
     }
     #del{
