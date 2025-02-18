@@ -189,12 +189,18 @@ body{
         height: 79%;
     }
     #moniter{
-        width: 58%;
-        font-size: x-large;
+        width: 61%;
+    }
+    #con{
+        width: 30%;
+        font-size: 80%;
+        height: 30%;
     }
     #del{
+        width: 14%;
         left: 16%;
         bottom: 10%;
+        font-size: 80%;
     }
 }
 @media (max-width:375px){
