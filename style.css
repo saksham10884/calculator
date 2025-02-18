@@ -70,7 +70,7 @@ body{
     border: 2px solid white;
     border-radius: 5px;
     align-content: center;
-    overflow: scroll;
+    overflow: hidden;
 }
 .con{
     padding: 2px;
