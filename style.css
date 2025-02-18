@@ -63,10 +63,12 @@ body{
 #moniter{
     position: absolute;
     background-color: grey;
+    display:grid;
     width: 79%;
     height: 71%;
     right: 4px;
     align-self: center;
+    justify-items:right;
     border: 2px solid white;
     border-radius: 5px;
     align-content: center;
