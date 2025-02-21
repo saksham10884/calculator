@@ -72,7 +72,8 @@ body{
     border: 2px solid white;
     border-radius: 5px;
     align-items: top;
-    overflow-x: scroll;
+    overflow-y: scroll;
+    word-break: break-all;
     scrollbar-color:white black;
 }
 .con{
